@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #e5ddd5;
+}
+
+.app {
+  max-width: 500px;
+  margin: auto;
+}
+
+.header {
+  background: white;
+  padding: 10px;
+  position: sticky;
+  top: 0;
+}
+
+#chat {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.msg {
+  max-width: 75%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.charge {
+  background: #fff;
+  border-left: 5px solid red;
+  align-self: flex-start;
+}
+
+.payment {
+  background: #dcf8c6;
+  align-self: flex-end;
+}
